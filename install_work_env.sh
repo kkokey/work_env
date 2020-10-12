@@ -123,3 +123,19 @@ else
   brew install ripgrep
 fi
 
+# zsh
+if [ -f /usr/local/bin/zsh ] ; then
+  echo 'Already installed zsh'
+else
+  echo 'brew install zsh'
+  brew install zsh
+fi
+
+# zsh-syntax-highlighting
+if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] ; then
+  echo 'Already install zsh-syntax-highlighting'
+else
+  echo 'brew install zsh-syntax-highlighting'
+  brew install zsh-syntax-highlighting
+fi
+
